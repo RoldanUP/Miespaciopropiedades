@@ -10,6 +10,22 @@ Rails.application.routes.draw do
 
 
 
+get 'welcome/index' 
+
+get 'welcome/corretajesdeptos'
+
+get 'welcome/corretajescasas'
+
+get 'welcome/publicatuprop'
+
+get 'welcome/disenoarquitec'
+
+get 'welcome/tasacionesinmob_asesorleg'
+
+
+get 'welcome/adminprop'
+
+get 'welcome/corretajesoficinas'
 
 
 
@@ -18,7 +34,7 @@ Rails.application.routes.draw do
 
 
 
-  
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
