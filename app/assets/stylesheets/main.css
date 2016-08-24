@@ -63,13 +63,11 @@ box-shadow: 8px 17px 28px 0px rgba(0,0,0,0.52);
     position: absolute;
     left: auto;
     right: auto;
-    
-}
+    }
 
 .center{
   text-align: center;
 }
-
 
 /* Global Button Styles */
 a.animated-button:link, a.animated-button:visited {
