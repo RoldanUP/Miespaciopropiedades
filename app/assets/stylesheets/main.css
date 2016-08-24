@@ -53,7 +53,7 @@
   position: relative;
   padding: .8em 1.4em;
   padding-right: 4.7em;
-  background: @button-colour;
+  background: @button-color;
   border: none;
   color: white;
   transition: .2s;
@@ -77,11 +77,11 @@
     background: @button-tint;
   }
   &:hover {
-    background: darken(@button-colour, 10%);
+    background: darken(@button-color, 10%);
   }
   &:active,
   &:focus {
-    background: darken(@button-colour, 30%);
+    background: darken(@button-color, 30%);
     outline: none;
   }
 }
